@@ -187,11 +187,11 @@ My personal site — projects, writing, and background. Built to be fast, access
 <div align="center">
 
 <!--
-  Dark mode: after the snake workflow has run once on `main`, it also publishes
-  `output/snake-dark.svg`. Uncomment the <source> line below to use it.
+  The snake workflow publishes both palettes to the `output` branch:
+  snake.svg (light) and snake-dark.svg (dark).
 -->
 <picture>
-  <!-- <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/falihdzakwanz/falihdzakwanz/output/snake-dark.svg" /> -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/falihdzakwanz/falihdzakwanz/output/snake-dark.svg" />
   <img src="https://raw.githubusercontent.com/falihdzakwanz/falihdzakwanz/output/snake.svg" alt="Snake animation eating my contribution graph" width="100%" />
 </picture>
 

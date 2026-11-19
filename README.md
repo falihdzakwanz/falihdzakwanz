@@ -160,17 +160,18 @@ My personal site — projects, writing, and background. Built to be fast, access
 <div align="center">
 
 <!--
-  NOTE: GitHub's camo image proxy truncates URLs inside <themed-picture> at ~229 chars.
-  Keep every srcset/src below that limit, so these use theme= presets instead of
-  long explicit color param lists.
+  NOTE: srcset is a comma-separated candidate list, so GitHub's camo rewrite stops at
+  the first comma inside a URL. Any comma in a srcset/src must be percent-encoded
+  (%2C) or the query string gets silently cut there. Keeping the URLs short with
+  theme= presets also avoids very long attributes.
 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=falihdzakwanz&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=falihdzakwanz&show_icons=true&theme=default&rank_icon=github&hide_border=true" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&theme=tokyonight&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web,sistem-teknologi-multimedia" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&theme=default&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web,sistem-teknologi-multimedia" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&theme=tokyonight&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web%2Csistem-teknologi-multimedia" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&theme=default&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web%2Csistem-teknologi-multimedia" alt="Top languages" />
 </picture>
 
 <picture>

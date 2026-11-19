@@ -159,23 +159,28 @@ My personal site — projects, writing, and background. Built to be fast, access
 
 <div align="center">
 
+<!--
+  NOTE: GitHub's camo image proxy truncates URLs inside <themed-picture> at ~229 chars.
+  Keep every srcset/src below that limit, so these use theme= presets instead of
+  long explicit color param lists.
+-->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=falihdzakwanz&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=8B5CF6&icon_color=22D3EE&text_color=C9D1D9&hide_border=true&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=falihdzakwanz&show_icons=true&include_all_commits=true&count_private=true&bg_color=FFFFFF&title_color=6D28D9&icon_color=0891B2&text_color=24292F&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=falihdzakwanz&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=falihdzakwanz&show_icons=true&theme=default&rank_icon=github&hide_border=true" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&langs_count=8&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web,UTS-Pemrograman-Web,uas-pemrograman-web,Task_HTML,Task-Master,sistem-teknologi-multimedia,login-page-tailwind,falihdzakwanz.github.io,drpl,Bookshelf-Apps,calculator,Personal-Notes" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=6D28D9&text_color=24292F&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web,UTS-Pemrograman-Web,uas-pemrograman-web,Task_HTML,Task-Master,sistem-teknologi-multimedia,login-page-tailwind,falihdzakwanz.github.io,drpl,Bookshelf-Apps,calculator,Personal-Notes" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&theme=tokyonight&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web,sistem-teknologi-multimedia" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falihdzakwanz&layout=compact&theme=default&hide_border=true&count_weight=1&exclude_repo=Praktikum-Pemrograman-Web,sistem-teknologi-multimedia" alt="Top languages" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=falihdzakwanz&background=0D1117&border=0D1117&stroke=8B5CF6&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=ffffff&sideNums=C9D1D9&dates=8B949E&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=falihdzakwanz&background=FFFFFF&border=FFFFFF&stroke=6D28D9&ring=0891B2&fire=6D28D9&currStreakLabel=0891B2&sideLabels=24292F&currStreakNum=111827&sideNums=24292F&dates=6B7280&hide_border=true" alt="Commit streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=falihdzakwanz&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=falihdzakwanz&theme=default&hide_border=true" alt="Commit streak" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=falihdzakwanz&bg_color=0D1117&color=C9D1D9&line=8B5CF6&point=22D3EE&area_color=22D3EE&area=true&hide_border=true&custom_title=Contribution%20Activity" />
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=falihdzakwanz&bg_color=FFFFFF&color=24292F&line=6D28D9&point=0891B2&area_color=0891B2&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=falihdzakwanz&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=falihdzakwanz&theme=github-light&hide_border=true&area=true" alt="Contribution activity graph" />
 </picture>
 
 </div>
